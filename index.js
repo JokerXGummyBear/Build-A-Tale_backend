@@ -12,7 +12,9 @@ const openai = new OpenAI({
 
 app.use(cors());
 app.use(express.json());
-
+app.get("/healthz", (req, res) => {
+  res.status(200).send("OK");
+});
 app.post('/generate', async (req, res) => {
   try {
     const { prompt } = req.body;
