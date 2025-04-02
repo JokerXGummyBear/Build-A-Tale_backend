@@ -1,0 +1,21 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+Logs/
+MemoryCaptures/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# User settings
+*.user
+*.csproj
+*.sln
+*.pidb
+
+# Backend/Node stuff (for safety)
+node_modules/
+.env
